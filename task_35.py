@@ -26,4 +26,5 @@ def calc(s):
         return a / b
     elif l[1] == '*':
         return a * b
-print(calc('4.21 / -5'))
+sd = input('Введи простое арефметическое выражение: ')
+print(calc(sd))
